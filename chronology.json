@@ -1,0 +1,26 @@
+{"reference":"Before Present (BP) counts years before 1950 CE.",
+"periods":[
+["Late Miocene",11630000,5333000,"Warming, patchy woodland and grass mosaics"],
+["Pliocene",5333000,2580000,"Warm, with increasing seasonality and grassland spread"],
+["Early Pleistocene",2580000,774000,"Cooling with 41,000-year glacial cycles"],
+["Middle Pleistocene",774000,129000,"Strong glacial-interglacial cycles"],
+["Late Pleistocene",129000,11700,"Last interglacial, then glacial conditions"]],
+"regions":{
+"EA":["East African Rift, Africa","Africa",["Lakeshore woodland","Open grassland","Riverbank"]],
+"SA":["Southern African highlands, Africa","Africa",["Open grassland","Rock shelter","Woodland"]],
+"NA":["Sahel basin, Africa","Africa",["Lakeshore woodland","Open grassland"]],
+"SEA":["Sundaland river valleys, Asia","Asia",["Riverbank","Forest"]],
+"EAs":["East Asian loess plains, Asia","Asia",["Open grassland","Woodland","Cave"]],
+"CEu":["Central European steppe-woodland","Europe",["Woodland","Cave","Riverbank"]],
+"SEu":["Iberian and Mediterranean coast","Europe",["Coastal","Cave","Rock shelter"]],
+"LS":["Island forests of Wallacea and Luzon","Asia",["Forest","Coastal","Cave"]],
+"WAs":["Levant and Zagros, Asia","Asia",["Rock shelter","Woodland"]]},
+"habitats":{
+"Lakeshore woodland":["Flat shoreline with wooded margins","Water, fruit, fish, stone cobbles","#2f3d2e"],
+"Open grassland":["Rolling savanna","Roots, grazing herds, scattered trees","#6b5a3a"],
+"Riverbank":["Alluvial banks and gravel bars","Water, cobbles, reeds, game paths","#4a4a3a"],
+"Rock shelter":["Rocky overhangs and slopes","Shelter, flint outcrops, springs","#55504a"],
+"Woodland":["Mixed open woodland","Nuts, fruit, firewood","#34452f"],
+"Forest":["Dense humid forest","Fruit, leaves, small prey","#243326"],
+"Coastal":["Shore and estuary","Shellfish, driftwood, fresh water","#3f4a4a"],
+"Cave":["Limestone cave and entrance terrace","Dry shelter, stone, bone","#3a3631"]}}

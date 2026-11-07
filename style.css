@@ -1,0 +1,23 @@
+:root{--bg:#0e0d0b;--ch:#1b1a17;--st:#8a8478;--sd:#d2c3a5;--br:#a07c4a;--fo:#2f3d2e}
+*{box-sizing:border-box}html,body{margin:0;overflow-x:hidden}
+body{background:var(--bg);color:var(--sd);font:16px/1.5 system-ui,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 12px;border-bottom:1px solid #2a2823;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.brand{font:700 1.1rem Georgia,serif;letter-spacing:.14em;color:var(--br)}
+#sf{display:flex;align-items:center;gap:4px;width:260px;max-width:100%;min-width:0;background:var(--ch);border:1px solid #3a372f;border-radius:6px;padding:2px 4px}
+#q{flex:1 1 auto;min-width:0;max-width:100%;white-space:nowrap;overflow-x:auto;overflow-y:hidden;background:none;border:0;color:var(--sd);font:inherit;padding:6px 2px}
+button{background:var(--fo);color:var(--sd);border:0;border-radius:4px;padding:5px 8px;font:inherit;font-size:.85rem;cursor:pointer}
+button:focus-visible,select:focus-visible,#q:focus-visible{outline:2px solid var(--br)}
+.filters{display:flex;gap:6px;overflow-x:auto;max-width:100%;flex:1 1 100%}
+select{background:var(--ch);color:var(--sd);border:1px solid #3a372f;border-radius:6px;padding:5px;max-width:170px;min-width:0}
+#msg{margin:0;flex:1 1 100%;font-size:.85rem;color:var(--st)}#msg:empty{display:none}
+#feed{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;padding:12px}
+.card{background:var(--ch);border:1px solid #2a2823;border-radius:8px;overflow:hidden;cursor:pointer;content-visibility:auto;contain-intrinsic-size:auto 380px;min-width:0}
+.card svg{display:block;width:100%;height:auto;aspect-ratio:5/6}
+.card div{padding:8px 10px}.card h3{margin:0;font:600 1.1rem Georgia,serif}
+.card p{margin:2px 0;font-size:.88rem;color:var(--st)}.card .oc{color:var(--sd)}
+.id{white-space:nowrap;overflow-x:auto;overflow-y:hidden;max-width:100%;font-size:.75rem;color:var(--st)}
+dialog{background:var(--ch);color:var(--sd);border:1px solid var(--br);border-radius:8px;width:min(680px,94vw);max-height:90vh;padding:0;overflow:auto}
+dialog::backdrop{background:#000c}#dc{padding:12px}#dc svg{width:min(260px,100%);height:auto;float:left;margin:0 12px 8px 0}
+#dc h2{font-family:Georgia,serif;margin:0}#dc h4{margin:12px 0 2px;color:var(--br)}#dc p{margin:2px 0}
+#x{position:sticky;top:6px;float:right;margin:6px;z-index:2}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
